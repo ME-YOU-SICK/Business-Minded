@@ -16,3 +16,22 @@
   border: none;
   cursor: pointer;
 }
+
+#business-list {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+#business-list li {
+  margin-bottom: 10px;
+}
+
+#business-list button {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
