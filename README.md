@@ -1,5 +1,4 @@
 # Business-Minded
-Business Minded
 Business Minded is an incremental clicker game that allows players to dive into the exciting world of entrepreneurship. Start from humble beginnings and build your business empire by clicking to earn money and strategically investing in various businesses, stocks, cryptocurrencies, and real estate.
 
 Game Features
