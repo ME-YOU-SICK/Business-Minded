@@ -1,37 +1,52 @@
-.container {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
   text-align: center;
-  margin-top: 100px;
 }
 
-#money-display {
-  font-size: 24px;
-  margin-bottom: 20px;
+.game-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-#click-button {
-  font-size: 18px;
+.info-panel {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-panel p {
+  margin: 0;
+}
+
+.game-panel {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: red;
+  color: #fff;
   padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-#business-list {
-  text-align: left;
-  list-style-type: none;
-  padding: 0;
-}
-
-#business-list li {
-  margin-bottom: 10px;
-}
-
-#business-list button {
-  font-size: 14px;
-  padding: 5px 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+button:hover {
+  opacity: 0.8;
 }
