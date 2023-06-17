@@ -89,7 +89,6 @@ function updateAvailableBusinesses() {
   }
 }
 
-
 // Add event listener to the click button
 document.getElementById("click-button").addEventListener("click", () => {
   money++;
