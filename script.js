@@ -104,4 +104,4 @@ setInterval(() => {
   updateAvailableBusinesses(); // Update available businesses
   displayBusinesses(); // Update the displayed businesses
   updateMoneyDisplay(); // Update the money display
-}, 10000);
+}, 100);
